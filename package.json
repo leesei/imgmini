@@ -2,12 +2,12 @@
 	"name": "imgmini",
 	"version": "1.0.0",
 	"description": "Image Minifier",
-	"main": "index.js",
+	"main": "cli.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"imgmini": "index.js"
+		"imgmini": "cli.js"
 	},
 	"keywords": [
 		"cli",

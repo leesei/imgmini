@@ -11,7 +11,7 @@ const path = require("path");
 var images = process.argv.slice(2);
 var imgLinks = images.filter(img => isImage(img));
 if (imgLinks.length > 0) {
-	const newImages = imgLinks.map(img => path.resolve(__dirname, img));
+	const newImages = imgLinks.map(img => path.resolve(process.cwd(), img));
 
 	// Copy file and rename.
 	gulp.src(newImages)
