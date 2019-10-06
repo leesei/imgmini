@@ -7,6 +7,7 @@ const rename = require("gulp-rename");
 const isImage = require("is-image");
 const chalk = require("chalk");
 const path = require("path");
+const open = require("open");
 
 var images = process.argv.slice(2);
 var imgLinks = images.filter(img => isImage(img));
@@ -44,12 +45,20 @@ if (imgLinks.length > 0) {
 			})
 		)
 		.pipe(
-			notify({
-				title: "Gulp Image",
-				message: "<%= file.relative %> Compressed Successful",
-				wait: true
+			notify(function(file) {
+				return {
+					title: "ImageMinify",
+					message: file.relative + " Compressed Successful",
+					actions: " Open Folder ",
+					wait: true,
+					folder: file.base
+				};
 			})
 		);
+
+	notify.on("click", function(options) {
+		open(options.folder);
+	});
 } else {
 	console.log(chalk.black.bgRed("Plz Provide Valid Image"));
 }
