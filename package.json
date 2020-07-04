@@ -8,7 +8,7 @@
 		"url": "https://github.com/Asikur22/npm-imgmini.git"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"No test specified\""
 	},
 	"bin": {
 		"imgmini": "./cli.js"
