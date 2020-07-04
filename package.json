@@ -1,6 +1,6 @@
 {
 	"name": "imgmini",
-	"version": "2.1.2",
+	"version": "2.2.0",
 	"description": "CLI Image Minifier with Gulp",
 	"main": "cli.js",
 	"repository": {
