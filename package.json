@@ -1,8 +1,12 @@
 {
 	"name": "imgmini",
 	"version": "2.1.2",
-	"description": "Image Minifier",
+	"description": "CLI Image Minifier with Gulp",
 	"main": "cli.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Asikur22/npm-imgmini.git"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
