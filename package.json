@@ -1,34 +1,36 @@
 {
-	"name": "imgmini",
-	"version": "2.2.0",
-	"description": "CLI Image Minifier with Gulp",
-	"main": "cli.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Asikur22/npm-imgmini.git"
-	},
-	"scripts": {
-		"test": "echo \"No test specified\""
-	},
-	"bin": {
-		"imgmini": "./cli.js"
-	},
-	"keywords": [
-		"cli",
-		"image",
-		"minifier"
-	],
-	"author": "Asiqur Rahman <asikur22@gmail.com> (https://asique.net/)",
-	"license": "MIT",
-	"dependencies": {
-		"chalk": "^2.4.2",
-		"gulp": "^4.0.2",
-		"gulp-if": "^3.0.0",
-		"gulp-image": "^5.0.0",
-		"gulp-notify": "^3.2.0",
-		"gulp-rename": "^1.4.0",
-		"is-image": "^3.0.0",
-		"is-url": "^1.2.4",
-		"open": "^6.4.0"
-	}
+  "name": "@leesei/imgmini",
+  "version": "3.0.0",
+  "description": "CLI Image Minifier with Gulp",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leesei/imgmini.git"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "bin": {
+    "imgmini": "./cli.js"
+  },
+  "keywords": [
+    "cli",
+    "image",
+    "minifier"
+  ],
+  "author": [
+    "Asiqur Rahman <asikur22@gmail.com>",
+    "leesei <leesei@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-if": "^3.0.0",
+    "gulp-image": "^6.2.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "is-image": "^3.0.0",
+    "open": "^8.2.0"
+  }
 }
