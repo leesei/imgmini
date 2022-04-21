@@ -12,6 +12,9 @@ Gulp 4 generates warning on usage of Chokidar v2, but we're not using this app f
 - the default invocation is not optimized
 - `Promise.all()` causes resource issue on low end machines (this app has concurrency limit)
 
+Use `mapLimit()` to control concurrency?
+[async - Documentation](https://caolan.github.io/async/v3/docs.html#mapLimit)
+
 ## Install
 
 ```sh

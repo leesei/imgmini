@@ -1,8 +1,9 @@
 {
   "name": "@leesei/imgmini",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "CLI Image Minifier with Gulp",
   "main": "cli.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/leesei/imgmini.git"

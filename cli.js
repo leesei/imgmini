@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
-const gulp = require("gulp");
-const image = require("gulp-image");
-const notify = require("gulp-notify");
-const rename = require("gulp-rename");
-const isImage = require("is-image");
-const gulpif = require("gulp-if");
-const chalk = require("chalk");
-const path = require("path");
-const open = require("open");
+import gulp from 'gulp';
+import image from 'gulp-image';
+import notify from "gulp-notify";
+import rename from "gulp-rename";
+import isImage from "is-image";
+import gulpif from "gulp-if";
+import chalk from "chalk";
+import path from "path";
+import open from "open";
 
 var args = process.argv.slice(2);
 
